@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volume Control Slider</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="slider-container">
+        <p>Red</p>
+        <input type="range" min="0" max="255" value="255" class="slider" id="volume-slider-red">
+        <span id="volume-value-red">255</span>
+    </div>
+    <div class="slider-container">
+        <p>Green</p>
+        <input type="range" min="0" max="255" value="255" class="slider" id="volume-slider-green">
+        <span id="volume-value-green">255</span>
+    </div>
+    <div class="slider-container">
+        <p>Blue</p>
+        <input type="range" min="0" max="255" value="255" class="slider" id="volume-slider-blue">
+        <span id="volume-value-blue">255</span>
+    </div>
+
+    <hr>
+    <div id="color-box"></div>
+    <p id="color-name">.</p>
+
+    <script src="index.js"></script>
+</body>
+</html>
