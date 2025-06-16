@@ -1,15 +1,30 @@
 /* styles.css */
 
-body{
-    background: #000000;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/* body {
+    background: #000000;
+    background: -webkit-linear-gradient(to right, #434343, #000000);
+    background: linear-gradient(to right, #434343, #000000);
+
+} */
+
+
+body {
+    background: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 
+.main-container {
+    display: flex;
+    /* margin-left: 100px;
+    margin-right: 100px; */
+    /* gap: 36rem; */
+    justify-content: space-around;
+}
 
 .slider-container {
-    display: flex;
+    /* display: flex;
+    flex: content; */
     align-items: center;
 }
 
@@ -33,32 +48,49 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
     /* background: #007bff; */
     cursor: pointer;
 }
-#volume-slider-red::-webkit-slider-thumb{
+
+#volume-slider-red::-webkit-slider-thumb {
     background: red;
 }
-#volume-slider-green::-webkit-slider-thumb{
+
+#volume-slider-green::-webkit-slider-thumb {
     background: green;
 }
-#volume-slider-blue::-webkit-slider-thumb{
+
+#volume-slider-blue::-webkit-slider-thumb {
     background: #007bff;
 }
 
 #volume-value-red {
     font-size: 18px;
 }
+
 #volume-value-green {
     font-size: 18px;
 }
-#volume-value-blue{
+
+#volume-value-blue {
     font-size: 18px;
 }
 
-#color-box{
+#color-box {
 
-  /* background-color: rgb(110, green, blue); */
-  width: 200px;
-  height: 200px;
-  border: 2px solid rgb(0, 0, 0);
-  /* padding: 50px;
+    /* background-color: rgb(110, green, blue); */
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgb(0, 0, 0);
+    /* padding: 50px;
   margin: 20px; */
+}
+
+#red {
+    color: red;
+}
+
+#green {
+    color: green;
+}
+
+#blue {
+    color: blue
 }
